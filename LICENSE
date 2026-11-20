@@ -1,176 +1,348 @@
-                                 Apache License
-                           Version 2.0, January 2004
-                        http://www.apache.org/licenses/
+                    Licença Pública Geral GNU
+                       Versão 3, 29 de junho de 2007
 
-   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+ Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
+ É permitido a todos copiar e distribuir cópias integrais.
+ deste documento de licença, mas alterá-lo não é permitido.
 
-   1. Definitions.
+                            Preâmbulo
 
-      "License" shall mean the terms and conditions for use, reproduction,
-      and distribution as defined by Sections 1 through 9 of this document.
+  A Licença Pública Geral GNU é uma licença gratuita e copyleft para
+software e outros tipos de trabalhos.
 
-      "Licensor" shall mean the copyright owner or entity authorized by
-      the copyright owner that is granting the License.
+  As licenças para a maioria dos softwares e outras obras práticas são projetadas
+Retirar-lhe a liberdade de partilhar e modificar as obras. Em contrapartida,
+A Licença Pública Geral GNU visa garantir sua liberdade de
+Compartilhar e modificar todas as versões de um programa — para garantir que ele permaneça gratuito.
+software para todos os seus usuários. Nós, da Fundação para o Software Livre, usamos o
+A maioria dos nossos softwares está sob a Licença Pública Geral GNU; ela também se aplica a...
+Qualquer outra obra lançada dessa forma por seus autores. Você pode aplicá-la a
+seus programas também
 
-      "Legal Entity" shall mean the union of the acting entity and all
-      other entities that control, are controlled by, or are under common
-      control with that entity. For the purposes of this definition,
-      "control" means (i) the power, direct or indirect, to cause the
-      direction or management of such entity, whether by contract or
-      otherwise, or (ii) ownership of fifty percent (50%) or more of the
-      outstanding shares, or (iii) beneficial ownership of such entity.
+  Quando falamos de software livre, estamos nos referindo à liberdade, não à liberdade em si.
+preço. Nossas Licenças para o Público em Geral são projetadas para garantir que você
+têm a liberdade de distribuir cópias de software livre (e cobrar por elas).
+(se desejar, você receberá o código-fonte ou poderá obtê-lo se quiser)
+O que você quer é poder alterar o software ou usar partes dele em novos projetos.
+programas gratuitos, e você sabe que pode fazer essas coisas.
 
-      "You" (or "Your") shall mean an individual or Legal Entity
-      exercising permissions granted by this License.
+  Para proteger seus direitos, precisamos impedir que outros os neguem a você.
+esses direitos ou pedir que você renuncie a eles. Portanto, você tem
+certas responsabilidades se você distribuir cópias do software, ou se
+Você modifica isso: responsabilidades de respeitar a liberdade dos outros.
 
-      "Source" form shall mean the preferred form for making modifications,
-      including but not limited to software source code, documentation
-      source, and configuration files.
+  Por exemplo, se você distribuir cópias de tal programa, seja
+Gratuitamente ou mediante pagamento, você deve repassar aos destinatários a mesma informação.
+liberdades que você recebeu. Você deve garantir que eles também as recebam.
+ou podem obter o código-fonte. E você deve mostrar a eles esses termos para que eles
+Conhecer seus direitos
 
-      "Object" form shall mean any form resulting from mechanical
-      transformation or translation of a Source form, including but
-      not limited to compiled object code, generated documentation,
-      and conversions to other media types.
+  Os desenvolvedores que utilizam a GNU GPL protegem seus direitos em duas etapas:
+(1) reivindicar os direitos autorais do software e (2) oferecer-lhe esta Licença
+concedendo a você permissão legal para copiar, distribuir e/ou modificar o conteúdo.
 
-      "Work" shall mean the work of authorship, whether in Source or
-      Object form, made available under the License, as indicated by a
-      copyright notice that is included in or attached to the work
-      (an example is provided in the Appendix below).
+  Para a proteção de desenvolvedores e autores, a GPL explica claramente
+que não há garantia para este software gratuito. Tanto para os usuários quanto para os clientes.
+Em prol dos autores, a GPL exige que as versões modificadas sejam marcadas como
+alterado, para que seus problemas não sejam atribuídos erroneamente a
+autores de versões anteriores.
 
-      "Derivative Works" shall mean any work, whether in Source or Object
-      form, that is based on (or derived from) the Work and for which the
-      editorial revisions, annotations, elaborations, or other modifications
-      represent, as a whole, an original work of authorship. For the purposes
-      of this License, Derivative Works shall not include works that remain
-      separable from, or merely link (or bind by name) to the interfaces of,
-      the Work and Derivative Works thereof.
+  Alguns dispositivos são projetados para negar aos usuários o acesso para instalar ou executar programas.
+versões modificadas do software dentro deles, embora o fabricante
+pode fazê-lo. Isso é fundamentalmente incompatível com o objetivo de
+Proteger a liberdade dos usuários de modificar o software. O sistematizado
+Esse padrão de abuso ocorre na área de produtos destinados a indivíduos.
+uso, que é precisamente onde é mais inaceitável. Portanto, nós
+elaboraram esta versão da GPL para proibir a prática para aqueles
+produtos. Se tais problemas surgirem substancialmente em outros domínios, nós
+Estamos prontos para estender essa disposição a esses domínios em versões futuras.
+da GPL, conforme necessário para proteger a liberdade dos usuários.
 
-      "Contribution" shall mean any work of authorship, including
-      the original version of the Work and any modifications or additions
-      to that Work or Derivative Works thereof, that is intentionally
-      submitted to Licensor for inclusion in the Work by the copyright owner
-      or by an individual or Legal Entity authorized to submit on behalf of
-      the copyright owner. For the purposes of this definition, "submitted"
-      means any form of electronic, verbal, or written communication sent
-      to the Licensor or its representatives, including but not limited to
-      communication on electronic mailing lists, source code control systems,
-      and issue tracking systems that are managed by, or on behalf of, the
-      Licensor for the purpose of discussing and improving the Work, but
-      excluding communication that is conspicuously marked or otherwise
-      designated in writing by the copyright owner as "Not a Contribution."
+  Por fim, todos os programas estão constantemente ameaçados por patentes de software.
+Os Estados não devem permitir que as patentes restrinjam o desenvolvimento e o uso de
+software em computadores de uso geral, mas naqueles que o fazem, desejamos
+evitar o perigo específico que as patentes aplicadas a um programa gratuito poderiam representar
+torná-lo efetivamente proprietário. Para evitar isso, a GPL garante que
+As patentes não podem ser usadas para tornar o programa não livre.
 
-      "Contributor" shall mean Licensor and any individual or Legal Entity
-      on behalf of whom a Contribution has been received by Licensor and
-      subsequently incorporated within the Work.
+  Os termos e condições precisos para cópia, distribuição e
+modificação a seguir
 
-   2. Grant of Copyright License. Subject to the terms and conditions of
-      this License, each Contributor hereby grants to You a perpetual,
-      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
-      copyright license to reproduce, prepare Derivative Works of,
-      publicly display, publicly perform, sublicense, and distribute the
-      Work and such Derivative Works in Source or Object form.
+                       TERMOS E CONDIÇÕES
 
-   3. Grant of Patent License. Subject to the terms and conditions of
-      this License, each Contributor hereby grants to You a perpetual,
-      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
-      (except as stated in this section) patent license to make, have made,
-      use, offer to sell, sell, import, and otherwise transfer the Work,
-      where such license applies only to those patent claims licensable
-      by such Contributor that are necessarily infringed by their
-      Contribution(s) alone or by combination of their Contribution(s)
-      with the Work to which such Contribution(s) was submitted. If You
-      institute patent litigation against any entity (including a
-      cross-claim or counterclaim in a lawsuit) alleging that the Work
-      or a Contribution incorporated within the Work constitutes direct
-      or contributory patent infringement, then any patent licenses
-      granted to You under this License for that Work shall terminate
-      as of the date such litigation is filed.
+  0. Definições
 
-   4. Redistribution. You may reproduce and distribute copies of the
-      Work or Derivative Works thereof in any medium, with or without
-      modifications, and in Source or Object form, provided that You
-      meet the following conditions:
+  "Esta Licença" refere-se à versão 3 da Licença Pública Geral GNU.
 
-      (a) You must give any other recipients of the Work or
-          Derivative Works a copy of this License; and
+  "Direitos autorais" também se refere a leis semelhantes aos direitos autorais que se aplicam a outros tipos de direitos autorais.
+obras, como máscaras semicondutoras.
 
-      (b) You must cause any modified files to carry prominent notices
-          stating that You changed the files; and
+  "O Programa" refere-se a qualquer obra protegida por direitos autorais licenciada sob este contrato.
+Licença. Cada licenciado é tratado como "você". "Licenciados" e
+Os "destinatários" podem ser indivíduos ou organizações.
 
-      (c) You must retain, in the Source form of any Derivative Works
-          that You distribute, all copyright, patent, trademark, and
-          attribution notices from the Source form of the Work,
-          excluding those notices that do not pertain to any part of
-          the Derivative Works; and
+  "Modificar" uma obra significa copiar ou adaptar toda ou parte da obra.
+de uma forma que exija permissão de direitos autorais, além da criação de um
+cópia exata. A obra resultante é chamada de "versão modificada" da
+trabalho anterior ou um trabalho "baseado em" um trabalho anterior.
 
-      (d) If the Work includes a "NOTICE" text file as part of its
-          distribution, then any Derivative Works that You distribute must
-          include a readable copy of the attribution notices contained
-          within such NOTICE file, excluding those notices that do not
-          pertain to any part of the Derivative Works, in at least one
-          of the following places: within a NOTICE text file distributed
-          as part of the Derivative Works; within the Source form or
-          documentation, if provided along with the Derivative Works; or,
-          within a display generated by the Derivative Works, if and
-          wherever such third-party notices normally appear. The contents
-          of the NOTICE file are for informational purposes only and
-          do not modify the License. You may add Your own attribution
-          notices within Derivative Works that You distribute, alongside
-          or as an addendum to the NOTICE text from the Work, provided
-          that such additional attribution notices cannot be construed
-          as modifying the License.
+  Uma "obra abrangida" significa o Programa sem modificações ou uma obra baseada em...
+no Programa
 
-      You may add Your own copyright statement to Your modifications and
-      may provide additional or different license terms and conditions
-      for use, reproduction, or distribution of Your modifications, or
-      for any such Derivative Works as a whole, provided Your use,
-      reproduction, and distribution of the Work otherwise complies with
-      the conditions stated in this License.
+  "Propagar" uma obra significa fazer com ela tudo o que, sem ela, possa ser feito de outra forma.
+permissão, tornaria você direta ou indiretamente responsável por
+infração nos termos da lei de direitos autorais aplicável, exceto a execução em um
+computador ou modificar uma cópia privada. A propagação inclui copiar,
+distribuição (com ou sem modificação), disponibilizando ao
+público, e em alguns países também outras atividades.
 
-   5. Submission of Contributions. Unless You explicitly state otherwise,
-      any Contribution intentionally submitted for inclusion in the Work
-      by You to the Licensor shall be under the terms and conditions of
-      this License, without any additional terms or conditions.
-      Notwithstanding the above, nothing herein shall supersede or modify
-      the terms of any separate license agreement you may have executed
-      with Licensor regarding such Contributions.
+  "Transmitir" uma obra significa qualquer tipo de propagação que possibilite a outros a sua disseminação.
+partes para fazer ou receber cópias. Mera interação com um usuário através de
+Uma rede de computadores, sem transferência de cópia, não está transmitindo dados.
 
-   6. Trademarks. This License does not grant permission to use the trade
-      names, trademarks, service marks, or product names of the Licensor,
-      except as required for reasonable and customary use in describing the
-      origin of the Work and reproducing the content of the NOTICE file.
+  Uma interface de usuário interativa exibe os "Avisos Legais Adequados".
+na medida em que inclua um elemento conveniente e de fácil visualização
+recurso que (1) exibe um aviso de direitos autorais apropriado e (2)
+informa ao usuário que não há garantia para o trabalho (exceto para o
+na medida em que as garantias são fornecidas), que os licenciados podem transmitir o
+trabalhar sob esta Licença e como visualizar uma cópia desta Licença. Se
+A interface apresenta uma lista de comandos ou opções do usuário, como um
+No menu, um item de destaque na lista atende a esse critério.
 
-   7. Disclaimer of Warranty. Unless required by applicable law or
-      agreed to in writing, Licensor provides the Work (and each
-      Contributor provides its Contributions) on an "AS IS" BASIS,
-      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
-      implied, including, without limitation, any warranties or conditions
-      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
-      PARTICULAR PURPOSE. You are solely responsible for determining the
-      appropriateness of using or redistributing the Work and assume any
-      risks associated with Your exercise of permissions under this License.
+  1. Código-fonte
 
-   8. Limitation of Liability. In no event and under no legal theory,
-      whether in tort (including negligence), contract, or otherwise,
-      unless required by applicable law (such as deliberate and grossly
-      negligent acts) or agreed to in writing, shall any Contributor be
-      liable to You for damages, including any direct, indirect, special,
-      incidental, or consequential damages of any character arising as a
-      result of this License or out of the use or inability to use the
-      Work (including but not limited to damages for loss of goodwill,
-      work stoppage, computer failure or malfunction, or any and all
-      other commercial damages or losses), even if such Contributor
-      has been advised of the possibility of such damages.
+  O "código-fonte" de uma obra significa a forma preferencial da obra.
+para fazer modificações nele. "Código objeto" significa qualquer código-fonte não original.
+forma de uma obra.
 
-   9. Accepting Warranty or Additional Liability. While redistributing
-      the Work or Derivative Works thereof, You may choose to offer,
-      and charge a fee for, acceptance of support, warranty, indemnity,
-      or other liability obligations and/or rights consistent with this
-      License. However, in accepting such obligations, You may act only
-      on Your own behalf and on Your sole responsibility, not on behalf
-      of any other Contributor, and only if You agree to indemnify,
-      defend, and hold each Contributor harmless for any liability
-      incurred by, or claims asserted against, such Contributor by reason
+  Uma "Interface Padrão" significa uma interface que seja oficial ou não.
+padrão definido por um organismo de normalização reconhecido ou, no caso de
+interfaces especificadas para uma linguagem de programação específica, uma que
+É amplamente utilizado entre os desenvolvedores que trabalham nessa linguagem.
+
+  As "Bibliotecas do Sistema" de uma obra executável incluem tudo, exceto...
+do que a obra como um todo, que (a) está incluída na forma normal de
+Empacota um componente principal, mas que não faz parte desse componente principal.
+Componente, e (b) serve apenas para permitir o uso da obra com esse componente.
+Componente principal, ou para implementar uma interface padrão para a qual um
+A implementação está disponível ao público em formato de código-fonte.
+"Componente Principal", neste contexto, significa um componente essencial principal.
+(kernel, sistema de janelas, etc.) do sistema operacional específico
+(se houver) no qual o trabalho executável é executado, ou um compilador usado para
+produzir o trabalho, ou um interpretador de código objeto usado para executá-lo.
+
+  A "Fonte Correspondente" para uma obra em formato de código objeto significa tudo
+o código-fonte necessário para gerar, instalar e (para um executável)
+trabalho) executar o código objeto e modificar o trabalho, incluindo scripts para
+controlar essas atividades. No entanto, isso não inclui o trabalho do
+Bibliotecas de sistema, ou ferramentas de uso geral, ou geralmente disponíveis gratuitamente
+programas que são usados ​​sem modificações na execução dessas atividades, mas
+que não fazem parte da obra. Por exemplo, Fonte Correspondente
+Inclui arquivos de definição de interface associados a arquivos de origem para
+o trabalho e o código-fonte para bibliotecas compartilhadas e dinamicamente
+subprogramas vinculados que o trabalho foi especificamente projetado para exigir,
+tais como por meio de comunicação de dados íntima ou fluxo de controle entre esses
+subprogramas e outras partes do trabalho.
+
+  A fonte correspondente não precisa incluir nada que os usuários
+pode regenerar-se automaticamente a partir de outras partes correspondentes
+Fonte
+
+  A fonte correspondente para uma obra em formato de código-fonte é que
+mesmo trabalho
+
+  2. Permissões básicas
+
+  Todos os direitos concedidos sob esta Licença são concedidos pelo prazo de
+Os direitos autorais do Programa são irrevogáveis, desde que o estipulado seja mantido.
+As condições são atendidas. Esta Licença afirma explicitamente sua propriedade ilimitada.
+Permissão para executar o programa sem modificações. A saída da execução de um
+O trabalho abrangido só está coberto por esta Licença se a saída, dado o seu
+conteúdo, constitui uma obra protegida. Esta Licença reconhece sua
+direitos de uso justo ou outros equivalentes, conforme previsto pela lei de direitos autorais.
+
+  Você pode criar, executar e divulgar obras protegidas que você não...
+transmitir, sem condições, desde que sua licença permaneça válida.
+em vigor. Você pode transferir as obras abrangidas a terceiros exclusivamente para este fim.
+de fazer com que eles façam modificações exclusivamente para você, ou de lhe fornecerem esse tipo de serviço.
+com instalações para a execução dessas obras, desde que você cumpra com
+os termos desta Licença ao transmitir todo o material para o qual você
+não controlam os direitos autorais. Aqueles que criam ou executam as obras abrangidas.
+pois você deve fazê-lo exclusivamente em seu próprio nome, sob suas instruções.
+e controle, em termos que os proíbem de fazer quaisquer cópias de
+seu material protegido por direitos autorais fora do relacionamento deles com você.
+
+  A transmissão em quaisquer outras circunstâncias é permitida exclusivamente sob
+As condições indicadas abaixo. O sublicenciamento não é permitido; seção 10
+torna-o desnecessário
+
+  3. Proteção dos direitos legais dos usuários contra a legislação anti-circunvenção.
+
+  Nenhuma obra abrangida será considerada parte de um sistema tecnológico eficaz.
+medida ao abrigo de qualquer lei aplicável que cumpra as obrigações previstas no artigo
+11 do tratado da OMPI sobre direitos autorais, adotado em 20 de dezembro de 1996, ou
+leis semelhantes que proíbem ou restringem a burla de tais
+medidas
+
+  Ao transmitir uma obra protegida por lei, você renuncia a qualquer direito legal de proibi-la.
+burla de medidas tecnológicas na medida em que tal burla
+é efetuada pelo exercício dos direitos previstos nesta Licença com relação a
+a obra abrangida, e você renuncia a qualquer intenção de limitar a operação ou
+modificação da obra como meio de impor, contra a obra
+usuários, seus direitos legais ou de terceiros para proibir a burla de
+medidas tecnológicas
+
+  4. Transmissão de cópias literais.
+
+  Você pode fornecer cópias integrais do código-fonte do Programa, conforme necessário.
+receba-o, em qualquer meio, desde que você o faça de forma visível e
+Publicar adequadamente em cada exemplar um aviso de direitos autorais apropriado;
+Mantenha intactos todos os avisos que indiquem que esta Licença e quaisquer outras
+Os termos não permissivos adicionados de acordo com a seção 7 aplicam-se ao código;
+conservar intactos todos os avisos de ausência de garantia; e fornecer todos
+Os destinatários receberão uma cópia desta Licença juntamente com o Programa.
+
+  Você pode cobrar qualquer preço ou nenhum preço por cada cópia que fornecer.
+E você pode oferecer suporte ou garantia mediante pagamento.
+
+  5. Transmissão de versões modificadas do código-fonte.
+
+  Você pode apresentar um trabalho baseado no Programa ou nas modificações feitas a ele.
+produzi-lo a partir do Programa, na forma de código-fonte sob o
+termos da seção 4, desde que você também atenda a todas estas condições:
+
+    a) O trabalho deve conter avisos em destaque informando que você o modificou.
+    e indicando uma data relevante.
+
+    b) A obra deve conter avisos em destaque indicando que é
+    liberado sob esta Licença e quaisquer condições adicionadas sob a seção
+    7. Este requisito modifica o requisito da seção 4 para
+    "manter intactos todos os avisos".
+
+    c) Você deve licenciar a obra inteira, como um todo, sob este contrato.
+    Licença concedida a qualquer pessoa que entre em posse de uma cópia.
+    A licença será, portanto, aplicável, juntamente com qualquer seção 7 aplicável.
+    termos adicionais, à totalidade da obra e a todas as suas partes,
+    independentemente de como sejam embalados. Esta licença não concede nada.
+    permissão para licenciar a obra de qualquer outra forma, mas não
+    Essa permissão será invalidada caso você a tenha recebido separadamente.
+
+    d) Se a obra possuir interfaces de usuário interativas, cada uma delas deverá exibir
+    Avisos legais apropriados; no entanto, se o Programa tiver elementos interativos
+    interfaces que não exibem avisos legais apropriados, seu
+    O trabalho não precisa obrigá-los a agir assim.
+
+  Uma compilação de uma obra abrangida com outras obras separadas e independentes.
+obras que, por sua natureza, não são extensões da obra abrangida,
+e que não são combinadas com ele de forma a formar um programa maior,
+Um volume contido em um meio de armazenamento ou distribuição, ou seja, um volume contido em um meio de armazenamento ou distribuição, é chamado de...
+"agregado" se a compilação e os direitos autorais resultantes não forem
+usado para limitar o acesso ou os direitos legais dos usuários da compilação
+além do que as obras individuais permitem. Inclusão de uma obra abrangida.
+O fato de, em conjunto, a licença não se aplicar aos demais não faz com que ela se aplique aos demais.
+partes do agregado.
+
+  6. Transmitindo formas não-fonte.
+
+  Você pode distribuir uma obra protegida em formato de código objeto sob os termos
+das seções 4 e 5, desde que você também transmita o
+Fonte correspondente legível por máquina, de acordo com os termos desta Licença,
+de uma destas maneiras:
+
+    a) Transmitir o código objeto em, ou incorporado em, um produto físico
+    (incluindo um meio de distribuição física), acompanhado por
+    Fonte correspondente fixada em um meio físico durável
+    Normalmente usado para intercâmbio de software.
+
+    b) Transmitir o código objeto em, ou incorporado em, um produto físico
+    (incluindo um meio de distribuição física), acompanhado por um
+    oferta por escrito, válida por pelo menos três anos e válida por como
+    contanto que você ofereça peças de reposição ou suporte ao cliente para esse produto.
+    modelo, para dar a qualquer pessoa que possua o código objeto (1) um
+    cópia do código-fonte correspondente para todo o software no
+    produto abrangido por esta Licença, em um formato físico durável
+    meio normalmente usado para troca de software, por um preço não
+    mais do que o seu custo razoável para realizar isso fisicamente
+    transmissão da fonte, ou (2) acesso para copiar a
+    Fonte correspondente de um servidor de rede, sem custos.
+
+    c) Transmita cópias individuais do código objeto com uma cópia do
+    Oferta por escrito para fornecer a Fonte Correspondente.
+    O uso alternativo é permitido apenas ocasionalmente e para fins não comerciais, e
+    somente se você recebeu o código objeto com tal oferta, de acordo com
+    com a subseção 6b
+
+    d) Transmita o código objeto oferecendo acesso a partir de um local designado.
+    local (gratuito ou pago), e oferecer acesso equivalente ao
+    Fonte correspondente da mesma forma, pelo mesmo local, sem
+    cobrança adicional. Não é necessário exigir que os destinatários copiem o documento.
+    Fonte correspondente juntamente com o código objeto. Se o local para
+    Copiar o código objeto é um servidor de rede, a Fonte Correspondente
+    pode estar em um servidor diferente (operado por você ou por terceiros)
+    que oferece suporte a recursos de cópia equivalentes, desde que você mantenha
+    Instruções claras ao lado do código objeto indicando onde encontrar o
+    Fonte correspondente. Independentemente do servidor que hospeda o
+    Fonte correspondente, você continua obrigado a garantir que seja
+    Disponível pelo tempo necessário para atender a esses requisitos.
+
+    e) Transmita o código objeto usando transmissão ponto a ponto, desde que
+    Você informa aos outros colegas onde está o código objeto e o correspondente.
+    As fontes da obra estão sendo oferecidas ao público em geral gratuitamente.
+    acusação nos termos da subseção 6d.
+
+  Uma porção separável do código objeto, cujo código-fonte é excluído.
+da Fonte Correspondente como uma Biblioteca de Sistema, não precisa ser
+incluído na transmissão do trabalho com código objeto.
+
+  Um "Produto do Usuário" é (1) um "produto de consumo", que significa qualquer
+bens móveis tangíveis que são normalmente usados ​​para fins pessoais, familiares,
+ou para fins domésticos, ou (2) qualquer coisa projetada ou vendida para incorporação
+em uma residência. Ao determinar se um produto é um produto de consumo,
+Em casos duvidosos, será decidido em favor da cobertura. Para um caso específico
+produto recebido por um determinado usuário, "normalmente usado" refere-se a um
+uso típico ou comum dessa classe de produto, independentemente do status
+do usuário em questão ou da maneira como o usuário em questão
+De fato usa, espera usar ou tem a expectativa de usar o produto. Um produto
+é um produto de consumo, independentemente de o produto ter um impacto substancial.
+usos comerciais, industriais ou não relacionados ao consumidor, a menos que tais usos representem
+o único modo de utilização significativo do produto.
+
+  "Informações de Instalação" para um Produto de Usuário significa quaisquer métodos,
+procedimentos, chaves de autorização ou outras informações necessárias para a instalação
+e executar versões modificadas de uma obra abrangida nesse Produto do Usuário a partir de
+uma versão modificada de sua Fonte Correspondente. As informações devem
+basta para garantir o funcionamento contínuo do objeto modificado
+O código não é, em caso algum, impedido ou interferido unicamente por causa de
+A modificação foi realizada.
+
+  Se você transmitir um trabalho de código objeto sob esta seção em, ou com, ou
+especificamente para uso em um Produto do Usuário, e a transmissão ocorre como
+parte de uma transação em que o direito de posse e uso do
+O Produto do Usuário é transferido ao destinatário em caráter perpétuo ou por um período determinado.
+prazo fixo (independentemente de como a transação seja caracterizada), o
+A fonte correspondente mencionada nesta seção deve ser acompanhada de
+pelas Informações de Instalação. Mas este requisito não se aplica.
+se nem você nem terceiros mantiverem a capacidade de instalar
+código objeto modificado no Produto do Usuário (por exemplo, o trabalho tem
+foi instalado na ROM).
+
+  A exigência de fornecer informações de instalação não inclui um
+exigência de continuar a fornecer serviços de suporte, garantia ou atualizações.
+para uma obra que tenha sido modificada ou instalada pelo destinatário, ou para
+o Produto do Usuário no qual foi modificado ou instalado. Acesso a um
+A rede pode ser negada quando a própria modificação for material e
+afeta negativamente o funcionamento da rede ou viola as regras e
+protocolos para comunicação em toda a rede.
+
+  Fonte correspondente transmitida e informações de instalação fornecidas.
+Em conformidade com esta seção, deve estar em um formato que seja público.
+documentado (e com uma implementação disponível ao público em
+forma de código-fonte), e não deve exigir nenhuma senha ou chave especial para
+Desempacotar, ler ou copiar.
+
+  7. Termos adicionais
+
+  "Permissões adicionai      incurred by, or claims asserted against, such Contributor by reason
       of your accepting any such warranty or additional liability.
 
    END OF TERMS AND CONDITIONS
