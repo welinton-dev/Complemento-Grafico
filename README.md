@@ -30,7 +30,7 @@ Este projeto foi construído sob o princípio de que o usuário deve saber exata
 
 ## Requisitos
 
-* Android [Versão mínima, ex: 12 ou superior]
+* Android [Versão mínima,12 ou superior]
 * [Shizuku](https://rikka.app) instalado e ativado (via Depuração sem fio ou ADB).
 
 ---
