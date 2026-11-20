@@ -1,11 +1,8 @@
 # Complemento-Grafico
-Um projeto criado sem derivação de outros projetos criado para ser totalmente gratuito e sem anúncios data de lançamento prevista para Sábado ou Domingo está seria uma versão de lançamento acesso antecipado coisas podem mudar 
 
-# [Complemento Grafico]
+> **Status do Projeto:** Acesso Antecipado (Early Access) — Aberto a testes, sugestões e relatos de bugs na aba [Issues](https://github.com).
 
-> **Status do Projeto:** Acesso Antecipado (Early Access) — Aberto a testes, sugestões e relatos de bugs na aba [Issues](https://github.com/welinton-dev/Complemento-Grafico/issues).
-
-Um utilitário Android leve, gratuito e de código aberto focado em dar ao usuário controle total sobre os ajustes de desempenho e resolução (`game_overlay`) via [Shizuku](https://github.comRikkaApps/Shizuku), sem depender de acesso root tradicional.
+Um utilitário Android leve, gratuito, sem anúncios e criado do zero, focado em dar ao usuário controle total sobre os ajustes de desempenho e resolução (`game_overlay`) via [Shizuku](https://github.com), sem depender de acesso root tradicional.
 
 ---
 
@@ -30,20 +27,17 @@ Este projeto foi construído sob o princípio de que o usuário deve saber exata
 
 ## Requisitos
 
-* Android [Versão mínima,12 ou superior]
+* Android 12 ou superior
 * [Shizuku](https://rikka.app) instalado e ativado (via Depuração sem fio ou ADB).
 
 ---
 
 ## Licença
 
-Este projeto é distribuído sob a licença **GNU General Public License v3.0 (GPLv3)** — veja o arquivo [LICENSE](LICENSE) para mais detalhes. 
-
-O código permanece aberto para que qualquer pessoa possa auditar sua segurança, estudar seu funcionamento e garantir que modificações futuras continuem transparentes para a comunidade.
+Este projeto é distribuído sob a licença **GNU General Public License v3.0 (GPLv3)** — veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ---
 
 ## Créditos
 
-* **[Shizuku](https://github.comRikkaApps/Shizuku)** — Pela API essencial que torna possível executar comandos privilegiados com segurança sem root.
-* 
+* **[Shizuku](https://github.com)** — Pela API essencial que torna possível executar comandos privilegiados com segurança sem root.
