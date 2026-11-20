@@ -3,7 +3,7 @@ Um projeto criado sem derivação de outros projetos criado para ser totalmente 
 
 # [Complemento Grafico]
 
-> **Status do Projeto:** Acesso Antecipado (Early Access) — Aberto a testes, sugestões e relatos de bugs na aba [Issues](https://github.com[welinton-dev]/[SeuRepositorio]/issues).
+> **Status do Projeto:** Acesso Antecipado (Early Access) — Aberto a testes, sugestões e relatos de bugs na aba [Issues](https://github.com/welinton-dev/Complemento-Grafico/issues).
 
 Um utilitário Android leve, gratuito e de código aberto focado em dar ao usuário controle total sobre os ajustes de desempenho e resolução (`game_overlay`) via [Shizuku](https://github.comRikkaApps/Shizuku), sem depender de acesso root tradicional.
 
