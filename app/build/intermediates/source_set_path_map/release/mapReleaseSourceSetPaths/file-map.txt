@@ -1,0 +1,8 @@
+com.gamecontrol.module.app-pngs-0 /storage/emulated/0/AndroidIDEProjects/gameControl/app/build/generated/res/pngs/release
+com.gamecontrol.module.app-resValues-1 /storage/emulated/0/AndroidIDEProjects/gameControl/app/build/generated/res/resValues/release
+com.gamecontrol.module.app-updated_navigation_xml-2 /storage/emulated/0/AndroidIDEProjects/gameControl/app/build/generated/updated_navigation_xml/release
+com.gamecontrol.module.app-packageReleaseResources-3 /storage/emulated/0/AndroidIDEProjects/gameControl/app/build/intermediates/incremental/release/packageReleaseResources/merged.dir
+com.gamecontrol.module.app-packageReleaseResources-4 /storage/emulated/0/AndroidIDEProjects/gameControl/app/build/intermediates/incremental/release/packageReleaseResources/stripped.dir
+com.gamecontrol.module.app-release-5 /storage/emulated/0/AndroidIDEProjects/gameControl/app/build/intermediates/merged_res/release/mergeReleaseResources
+com.gamecontrol.module.app-main-6 /storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/res
+com.gamecontrol.module.app-release-7 /storage/emulated/0/AndroidIDEProjects/gameControl/app/src/release/res

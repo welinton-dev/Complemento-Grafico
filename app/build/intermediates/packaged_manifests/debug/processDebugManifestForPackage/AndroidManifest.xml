@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gamecontrol.module"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="31"
+        android:targetSdkVersion="34" />
+
+    <!-- Necessário no Android 11+ para listar os jogos instalados automaticamente -->
+    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+    <uses-permission android:name="moe.shizuku.manager.permission.API_V23" />
+
+    <application
+        android:allowBackup="false"
+        android:debuggable="true"
+        android:extractNativeLibs="false"
+        android:hasCode="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name" >
+
+        <!-- TELA MINIMALISTA (Status Shizuku + Lista de Jogos + Adicionar Botões) -->
+        <activity
+            android:name="com.gamecontrol.module.MainActivity"
+            android:exported="true"
+            android:theme="@android:style/Theme.DeviceDefault.DayNight" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <!-- Toque longo no botão da barra rápida abre esta tela -->
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE_PREFERENCES" />
+            </intent-filter>
+        </activity>
+
+        <!-- CONFIGURAÇÃO OBRIGATÓRIA DO SHIZUKU -->
+        <provider
+            android:name="rikka.shizuku.ShizukuProvider"
+            android:authorities="com.gamecontrol.module.shizuku"
+            android:enabled="true"
+            android:exported="true"
+            android:multiprocess="false"
+            android:permission="android.permission.INTERACT_ACROSS_USERS_FULL" />
+
+        <!-- BOTÃO 1: Perfil Equilibrado -->
+        <service
+            android:name="com.gamecontrol.module.TileServiceLeve"
+            android:exported="true"
+            android:icon="@drawable/ic_grafico"
+            android:label="@string/tile_balanced"
+            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE" >
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE" />
+            </intent-filter>
+        </service>
+
+        <!-- BOTÃO 2: Perfil Desempenho Ultra -->
+        <service
+            android:name="com.gamecontrol.module.TileServiceUltra"
+            android:exported="true"
+            android:icon="@drawable/ic_grafico"
+            android:label="@string/tile_performance"
+            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE" >
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="moe.shizuku.client.V3_SUPPORT"
+            android:value="true" />
+    </application>
+
+</manifest>

@@ -1,0 +1,124 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.gamecontrol.module"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="31"
+9        android:targetSdkVersion="34" />
+10
+11    <!-- Necessário no Android 11+ para listar os jogos instalados automaticamente -->
+12    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+12-->/storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:5:5-77
+12-->/storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:5:22-74
+13    <uses-permission android:name="moe.shizuku.manager.permission.API_V23" />
+13-->[dev.rikka.shizuku:provider:13.1.5] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/4d2edecaa853cff68629cd3e3e0ec8b1/transformed/provider-13.1.5/AndroidManifest.xml:8:5-78
+13-->[dev.rikka.shizuku:provider:13.1.5] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/4d2edecaa853cff68629cd3e3e0ec8b1/transformed/provider-13.1.5/AndroidManifest.xml:8:22-75
+14
+15    <application
+15-->/storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:7:5-61:19
+16        android:allowBackup="false"
+16-->/storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:11:9-36
+17        android:extractNativeLibs="false"
+18        android:hasCode="true"
+18-->/storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:10:9-31
+19        android:icon="@mipmap/ic_launcher"
+19-->/storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:9:9-43
+20        android:label="@string/app_name" >
+20-->/storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:8:9-41
+21
+22        <!-- TELA MINIMALISTA (Status Shizuku + Lista de Jogos + Adicionar Botões) -->
+23        <activity
+23-->/storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:14:9-26:20
+24            android:name="com.gamecontrol.module.MainActivity"
+24-->/storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:15:13-41
+25            android:exported="true"
+25-->/storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:16:13-36
+26            android:theme="@android:style/Theme.DeviceDefault.DayNight" >
+26-->/storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:17:13-72
+27            <intent-filter>
+27-->/storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:18:13-21:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->/storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:19:17-69
+28-->/storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:19:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->/storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:20:17-77
+30-->/storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:20:27-74
+31            </intent-filter>
+32            <!-- Toque longo no botão da barra rápida abre esta tela -->
+33            <intent-filter>
+33-->/storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:23:13-25:29
+34                <action android:name="android.service.quicksettings.action.QS_TILE_PREFERENCES" />
+34-->/storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:24:17-99
+34-->/storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:24:25-96
+35            </intent-filter>
+36        </activity>
+37
+38        <!-- CONFIGURAÇÃO OBRIGATÓRIA DO SHIZUKU -->
+39        <provider
+40            android:name="rikka.shizuku.ShizukuProvider"
+40-->/storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:30:13-57
+41            android:authorities="com.gamecontrol.module.shizuku"
+41-->/storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:31:13-59
+42            android:enabled="true"
+42-->/storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:33:13-35
+43            android:exported="true"
+43-->/storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:34:13-36
+44            android:multiprocess="false"
+44-->/storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:32:13-41
+45            android:permission="android.permission.INTERACT_ACROSS_USERS_FULL" />
+45-->/storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:35:13-79
+46
+47        <!-- BOTÃO 1: Perfil Equilibrado -->
+48        <service
+48-->/storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:38:9-47:19
+49            android:name="com.gamecontrol.module.TileServiceLeve"
+49-->/storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:39:13-44
+50            android:exported="true"
+50-->/storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:43:13-36
+51            android:icon="@drawable/ic_grafico"
+51-->/storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:41:13-48
+52            android:label="@string/tile_balanced"
+52-->/storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:40:13-50
+53            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE" >
+53-->/storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:42:13-77
+54            <intent-filter>
+54-->/storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:44:13-46:29
+55                <action android:name="android.service.quicksettings.action.QS_TILE" />
+55-->/storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:45:17-87
+55-->/storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:45:25-84
+56            </intent-filter>
+57        </service>
+58
+59        <!-- BOTÃO 2: Perfil Desempenho Ultra -->
+60        <service
+60-->/storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:50:9-59:19
+61            android:name="com.gamecontrol.module.TileServiceUltra"
+61-->/storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:51:13-45
+62            android:exported="true"
+62-->/storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:55:13-36
+63            android:icon="@drawable/ic_grafico"
+63-->/storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:53:13-48
+64            android:label="@string/tile_performance"
+64-->/storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:52:13-53
+65            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE" >
+65-->/storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:54:13-77
+66            <intent-filter>
+66-->/storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:44:13-46:29
+67                <action android:name="android.service.quicksettings.action.QS_TILE" />
+67-->/storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:45:17-87
+67-->/storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:45:25-84
+68            </intent-filter>
+69        </service>
+70
+71        <meta-data
+71-->[dev.rikka.shizuku:provider:13.1.5] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/4d2edecaa853cff68629cd3e3e0ec8b1/transformed/provider-13.1.5/AndroidManifest.xml:11:9-13:36
+72            android:name="moe.shizuku.client.V3_SUPPORT"
+72-->[dev.rikka.shizuku:provider:13.1.5] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/4d2edecaa853cff68629cd3e3e0ec8b1/transformed/provider-13.1.5/AndroidManifest.xml:12:13-57
+73            android:value="true" />
+73-->[dev.rikka.shizuku:provider:13.1.5] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/4d2edecaa853cff68629cd3e3e0ec8b1/transformed/provider-13.1.5/AndroidManifest.xml:13:13-33
+74    </application>
+75
+76</manifest>

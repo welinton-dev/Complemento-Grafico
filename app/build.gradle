@@ -1,0 +1,27 @@
+plugins {
+    alias(libs.plugins.android.application)
+}
+
+android {
+    namespace = 'com.gamecontrol.module'
+    compileSdk = 36
+
+    defaultConfig {
+        applicationId = 'com.gamecontrol.module'
+        minSdk = 31 // game_overlay / downscale só existe a partir do Android 12
+        targetSdk = 34
+        versionCode = 1
+        versionName = '1.0'
+    }
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
+    }
+}
+
+dependencies {
+    implementation "dev.rikka.shizuku:api:13.1.5"
+    implementation "dev.rikka.shizuku:provider:13.1.5"
+    implementation "androidx.annotation:annotation:1.9.1" // evita o aviso RestrictTo do Shizuku
+}

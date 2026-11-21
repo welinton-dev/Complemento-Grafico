@@ -1,0 +1,18 @@
+package com.gamecontrol.module;
+
+/**
+ * Dados da tela "Sobre". Preencha quando tiver. Enquanto um campo estiver vazio, a linha
+ * correspondente simplesmente não aparece na tela.
+ */
+public final class InfoApp {
+    private InfoApp() {}
+
+    /** Seu nome ou apelido. Ex.: "Fulano". */
+    public static final String AUTOR = "";
+
+    /** Endereço do repositório, sem barra no final. Ex.: "https://github.com/usuario/gameControl". */
+    public static final String URL_REPOSITORIO = "https://github.com/welinton-dev/Complemento-Grafico?tab=readme-ov-file";
+
+    /** Nome da licença escolhida. Ex.: "GNU GPLv3". */
+    public static final String LICENCA = "";
+}

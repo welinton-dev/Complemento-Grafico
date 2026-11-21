@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Graphics Companion</string>
+    <string name="tile_balanced">Graphics: Balanced</string>
+    <string name="tile_performance">Graphics: Performance</string>
+    <string name="tile_active">Active · %d items</string>
+
+    <string name="profile_balanced">Balanced</string>
+    <string name="profile_performance">Performance</string>
+    <string name="profile_none">none</string>
+    <string name="profile_active">Active profile: %s</string>
+    <string name="profile_with_pct">%1$s (%2$d%%)</string>
+
+    <string name="shizuku_ok">Shizuku: authorized ✓</string>
+    <string name="shizuku_waiting">Shizuku: waiting for permission</string>
+    <string name="shizuku_off">Shizuku: not running</string>
+    <string name="shizuku_missing">Shizuku: not installed</string>
+    <string name="btn_authorize">Authorize</string>
+    <string name="btn_open_shizuku">Open Shizuku</string>
+    <string name="btn_install">Install</string>
+    <string name="btn_restore">Restore</string>
+
+    <string name="search_hint">🔍 Search game or package</string>
+    <string name="btn_select_all">Select all</string>
+    <string name="btn_clear_all">Clear all</string>
+
+    <string name="menu_adjust">Adjust intensity</string>
+    <string name="menu_add_tiles">Add Quick Settings tiles</string>
+    <string name="menu_show_all">Show all apps</string>
+    <string name="menu_help">How it works</string>
+    <string name="menu_diagnostics">Diagnostics</string>
+
+    <string name="empty_apps">No apps found.</string>
+    <string name="empty_games">No games detected. Turn on “Show all apps” to choose manually.</string>
+    <string name="games_detected">%1$d games detected · %2$s</string>
+    <string name="apps_listed">%1$d apps listed · %2$s</string>
+    <plurals name="will_change">
+        <item quantity="one">%d will be changed</item>
+        <item quantity="other">%d will be changed</item>
+    </plurals>
+    <string name="applied_badge">✓ Applied · %d%%</string>
+    <string name="applied_still">Still applied (removed when the profile is turned off)</string>
+
+    <string name="adjust_intro">Resolution used by games in each profile. Lower means more FPS and a blurrier image. Performance never goes above Balanced.</string>
+    <string name="adjust_balanced">Balanced: %d%%</string>
+    <string name="adjust_performance">Performance: %d%%</string>
+    <string name="adjust_defaults">Reset to defaults</string>
+    <string name="advanced">Advanced</string>
+    <string name="keep_until_reboot">Keep until reboot</string>
+    <string name="force_perf">Force Performance game mode</string>
+    <string name="force_perf_note">Required for the resolution reduction to take effect. Changes the game mode of the selected items; when the profile is turned off, they go back to Standard mode.</string>
+    <string name="close">Close</string>
+    <string name="got_it">Got it</string>
+
+    <string name="help_title">How it works</string>
+    <string name="help_message">QUICK SETTINGS TILES\n\n• Graphics: Balanced — lowers the games’ resolution to %1$d%%. A good middle ground between quality and performance.\n\n• Graphics: Performance — lowers it to %2$d%%. More FPS, blurrier image.\n\nTo change these values, use the ⋮ menu > Adjust intensity.\n\nOnly one profile is active at a time. Tapping the active tile turns the profile off. You may need to reopen the game for the change to take effect.\n\nRebooting the device undoes the profile. With “Keep until reboot” (in Adjust) on, the system is also prevented from overwriting the values during that period. “Restore” undoes it right away and also cleans leftover entries (for example, from games you uninstalled).\n\nFor the reduction to take effect, the app puts the games in the system’s Performance mode and, when the profile is turned off, returns them to Standard mode.\n\nUnchecked items in the list are never changed. If Shizuku is not yet authorized, the tile itself asks for permission.\n\nHOW TO ADD\n%3$s</string>
+    <string name="help_add_13">Use the ⋮ menu > “Add Quick Settings tiles”.</string>
+    <string name="help_add_manual">Open Quick Settings, tap the pencil (edit) and drag the “Graphics: …” tiles to the active area.</string>
+
+    <string name="diag_items">Items the app changes:</string>
+    <string name="diag_none">(none)</string>
+    <string name="diag_system">On the system:</string>
+    <string name="diag_last_sync">Last sync command</string>
+    <string name="diag_not_run">(not run)</string>
+    <string name="diag_modes">Game mode on the system (dumpsys, first 5):</string>
+    <string name="diag_no_data">(no data)</string>
+
+    <string name="err_shizuku_not_running">Shizuku is not running</string>
+    <string name="err_permission_denied_forever">Permission denied. Authorize this app inside Shizuku</string>
+    <string name="err_permission_denied">Shizuku permission denied</string>
+    <string name="err_shizuku_failure">Shizuku failure: %s</string>
+    <string name="err_command">Error (%1$d): %2$s</string>
+    <string name="err_failure">Failure: %s</string>
+    <string name="toast_no_games">No games selected</string>
+    <string name="toast_applied">Profile applied to %d item(s)</string>
+    <string name="toast_restored">Everything restored</string>
+    <string name="toast_removed">Profile removed</string>
+    <string name="toast_sync_on">Keep-until-reboot protection on</string>
+    <string name="toast_sync_off">Keep-until-reboot protection off</string>
+    <string name="sync_off_by_user">(turned off by the user)</string>
+
+    <string name="menu_about">About</string>
+    <string name="about_description">Lowers games’ resolution through Android’s Game Mode, using Shizuku.</string>
+    <string name="about_version">Version %1$s (%2$d)</string>
+    <string name="about_author">By %s</string>
+    <string name="about_license">License: %s</string>
+    <string name="about_source">Source code and project page:\n%s</string>
+    <string name="about_issues">Report problems:\n%s</string>
+    <string name="about_credits">Credits\nThis app uses Shizuku, by RikkaApps:\nhttps://github.com/RikkaApps/Shizuku</string>
+    <string name="about_privacy">Privacy\nThis app does not use the internet and does not collect any data. Everything stays on your device.</string>
+    <string name="btn_copy_support">Copy support info</string>
+    <string name="toast_copied">Support info copied</string>
+</resources>

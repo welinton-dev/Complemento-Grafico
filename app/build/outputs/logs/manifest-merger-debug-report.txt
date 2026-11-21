@@ -1,0 +1,134 @@
+-- Merging decision tree log ---
+provider#rikka.shizuku.ShizukuProvider
+INJECTED from /storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:29:9-35:82
+	android:enabled
+		ADDED from /storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:33:13-35
+	android:authorities
+		INJECTED from /storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml
+		ADDED from /storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:31:13-59
+	android:multiprocess
+		ADDED from /storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:32:13-41
+	android:exported
+		ADDED from /storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:34:13-36
+	android:permission
+		ADDED from /storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:35:13-79
+	android:name
+		ADDED from /storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:30:13-57
+manifest
+ADDED from /storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:2:1-62:12
+INJECTED from /storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:2:1-62:12
+INJECTED from /storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:2:1-62:12
+INJECTED from /storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:2:1-62:12
+MERGED from [dev.rikka.shizuku:provider:13.1.5] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/4d2edecaa853cff68629cd3e3e0ec8b1/transformed/provider-13.1.5/AndroidManifest.xml:2:1-16:12
+MERGED from [dev.rikka.shizuku:api:13.1.5] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/63bd0b1cf0c46dba5bd9284ae8ed89fc/transformed/api-13.1.5/AndroidManifest.xml:2:1-7:12
+MERGED from [dev.rikka.shizuku:shared:13.1.5] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/03f707ac159c7d8611d7609bddac3413/transformed/shared-13.1.5/AndroidManifest.xml:2:1-7:12
+MERGED from [dev.rikka.shizuku:aidl:13.1.5] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/7b6e0e2276aa059158b6ea7135c5b046/transformed/aidl-13.1.5/AndroidManifest.xml:2:1-7:12
+	package
+		INJECTED from /storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.QUERY_ALL_PACKAGES
+ADDED from /storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:5:5-77
+	android:name
+		ADDED from /storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:5:22-74
+application
+ADDED from /storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:7:5-61:19
+INJECTED from /storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:7:5-61:19
+MERGED from [dev.rikka.shizuku:provider:13.1.5] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/4d2edecaa853cff68629cd3e3e0ec8b1/transformed/provider-13.1.5/AndroidManifest.xml:10:5-14:19
+MERGED from [dev.rikka.shizuku:provider:13.1.5] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/4d2edecaa853cff68629cd3e3e0ec8b1/transformed/provider-13.1.5/AndroidManifest.xml:10:5-14:19
+	android:extractNativeLibs
+		INJECTED from /storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml
+	android:label
+		ADDED from /storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:8:9-41
+	android:hasCode
+		ADDED from /storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:10:9-31
+	tools:ignore
+		ADDED from [dev.rikka.shizuku:provider:13.1.5] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/4d2edecaa853cff68629cd3e3e0ec8b1/transformed/provider-13.1.5/AndroidManifest.xml:10:18-69
+	android:icon
+		ADDED from /storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:9:9-43
+	android:allowBackup
+		ADDED from /storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:11:9-36
+activity#com.gamecontrol.module.MainActivity
+ADDED from /storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:14:9-26:20
+	android:exported
+		ADDED from /storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:16:13-36
+	android:theme
+		ADDED from /storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:17:13-72
+	android:name
+		ADDED from /storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:15:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:18:13-21:29
+action#android.intent.action.MAIN
+ADDED from /storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:19:17-69
+	android:name
+		ADDED from /storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:19:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:20:17-77
+	android:name
+		ADDED from /storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:20:27-74
+intent-filter#action:name:android.service.quicksettings.action.QS_TILE_PREFERENCES
+ADDED from /storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:23:13-25:29
+action#android.service.quicksettings.action.QS_TILE_PREFERENCES
+ADDED from /storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:24:17-99
+	android:name
+		ADDED from /storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:24:25-96
+service#com.gamecontrol.module.TileServiceLeve
+ADDED from /storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:38:9-47:19
+	android:label
+		ADDED from /storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:40:13-50
+	android:exported
+		ADDED from /storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:43:13-36
+	android:permission
+		ADDED from /storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:42:13-77
+	android:icon
+		ADDED from /storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:41:13-48
+	android:name
+		ADDED from /storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:39:13-44
+intent-filter#action:name:android.service.quicksettings.action.QS_TILE
+ADDED from /storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:44:13-46:29
+action#android.service.quicksettings.action.QS_TILE
+ADDED from /storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:45:17-87
+	android:name
+		ADDED from /storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:45:25-84
+service#com.gamecontrol.module.TileServiceUltra
+ADDED from /storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:50:9-59:19
+	android:label
+		ADDED from /storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:52:13-53
+	android:exported
+		ADDED from /storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:55:13-36
+	android:permission
+		ADDED from /storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:54:13-77
+	android:icon
+		ADDED from /storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:53:13-48
+	android:name
+		ADDED from /storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml:51:13-45
+uses-sdk
+INJECTED from /storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml
+INJECTED from /storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml
+MERGED from [dev.rikka.shizuku:provider:13.1.5] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/4d2edecaa853cff68629cd3e3e0ec8b1/transformed/provider-13.1.5/AndroidManifest.xml:6:5-44
+MERGED from [dev.rikka.shizuku:provider:13.1.5] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/4d2edecaa853cff68629cd3e3e0ec8b1/transformed/provider-13.1.5/AndroidManifest.xml:6:5-44
+MERGED from [dev.rikka.shizuku:api:13.1.5] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/63bd0b1cf0c46dba5bd9284ae8ed89fc/transformed/api-13.1.5/AndroidManifest.xml:5:5-44
+MERGED from [dev.rikka.shizuku:api:13.1.5] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/63bd0b1cf0c46dba5bd9284ae8ed89fc/transformed/api-13.1.5/AndroidManifest.xml:5:5-44
+MERGED from [dev.rikka.shizuku:shared:13.1.5] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/03f707ac159c7d8611d7609bddac3413/transformed/shared-13.1.5/AndroidManifest.xml:5:5-44
+MERGED from [dev.rikka.shizuku:shared:13.1.5] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/03f707ac159c7d8611d7609bddac3413/transformed/shared-13.1.5/AndroidManifest.xml:5:5-44
+MERGED from [dev.rikka.shizuku:aidl:13.1.5] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/7b6e0e2276aa059158b6ea7135c5b046/transformed/aidl-13.1.5/AndroidManifest.xml:5:5-44
+MERGED from [dev.rikka.shizuku:aidl:13.1.5] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/7b6e0e2276aa059158b6ea7135c5b046/transformed/aidl-13.1.5/AndroidManifest.xml:5:5-44
+	android:targetSdkVersion
+		INJECTED from /storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /storage/emulated/0/AndroidIDEProjects/gameControl/app/src/main/AndroidManifest.xml
+uses-permission#moe.shizuku.manager.permission.API_V23
+ADDED from [dev.rikka.shizuku:provider:13.1.5] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/4d2edecaa853cff68629cd3e3e0ec8b1/transformed/provider-13.1.5/AndroidManifest.xml:8:5-78
+	android:name
+		ADDED from [dev.rikka.shizuku:provider:13.1.5] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/4d2edecaa853cff68629cd3e3e0ec8b1/transformed/provider-13.1.5/AndroidManifest.xml:8:22-75
+meta-data#moe.shizuku.client.V3_SUPPORT
+ADDED from [dev.rikka.shizuku:provider:13.1.5] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/4d2edecaa853cff68629cd3e3e0ec8b1/transformed/provider-13.1.5/AndroidManifest.xml:11:9-13:36
+	android:value
+		ADDED from [dev.rikka.shizuku:provider:13.1.5] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/4d2edecaa853cff68629cd3e3e0ec8b1/transformed/provider-13.1.5/AndroidManifest.xml:13:13-33
+	android:name
+		ADDED from [dev.rikka.shizuku:provider:13.1.5] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/4d2edecaa853cff68629cd3e3e0ec8b1/transformed/provider-13.1.5/AndroidManifest.xml:12:13-57

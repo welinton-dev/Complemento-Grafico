@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Complemento Gráfico</string>
+    <string name="tile_balanced">Gráficos: Equilibrado</string>
+    <string name="tile_performance">Gráficos: Desempenho</string>
+    <string name="tile_active">Ativo · %d itens</string>
+
+    <string name="profile_balanced">Equilibrado</string>
+    <string name="profile_performance">Desempenho</string>
+    <string name="profile_none">nenhum</string>
+    <string name="profile_active">Perfil ativo: %s</string>
+    <string name="profile_with_pct">%1$s (%2$d%%)</string>
+
+    <string name="shizuku_ok">Shizuku: autorizado ✓</string>
+    <string name="shizuku_waiting">Shizuku: aguardando permissão</string>
+    <string name="shizuku_off">Shizuku: desligado</string>
+    <string name="shizuku_missing">Shizuku: não instalado</string>
+    <string name="btn_authorize">Autorizar</string>
+    <string name="btn_open_shizuku">Abrir Shizuku</string>
+    <string name="btn_install">Instalar</string>
+    <string name="btn_restore">Restaurar</string>
+
+    <string name="search_hint">🔍 Buscar jogo ou pacote</string>
+    <string name="btn_select_all">Marcar todos</string>
+    <string name="btn_clear_all">Desmarcar todos</string>
+
+    <string name="menu_adjust">Ajustar intensidade</string>
+    <string name="menu_add_tiles">Adicionar botões à barra rápida</string>
+    <string name="menu_show_all">Mostrar todos os apps</string>
+    <string name="menu_help">Como funciona</string>
+    <string name="menu_diagnostics">Diagnóstico</string>
+
+    <string name="empty_apps">Nenhum app encontrado.</string>
+    <string name="empty_games">Nenhum jogo detectado. Ligue “Mostrar todos os apps” para escolher manualmente.</string>
+    <string name="games_detected">%1$d jogos detectados · %2$s</string>
+    <string name="apps_listed">%1$d apps listados · %2$s</string>
+    <plurals name="will_change">
+        <item quantity="one">%d será alterado</item>
+        <item quantity="other">%d serão alterados</item>
+    </plurals>
+    <string name="applied_badge">✓ Aplicado · %d%%</string>
+    <string name="applied_still">Ainda aplicado (removido ao desativar o perfil)</string>
+
+    <string name="adjust_intro">Resolução usada pelos jogos em cada perfil. Quanto menor, mais FPS e mais borrado. O Desempenho nunca fica acima do Equilibrado.</string>
+    <string name="adjust_balanced">Equilibrado: %d%%</string>
+    <string name="adjust_performance">Desempenho: %d%%</string>
+    <string name="adjust_defaults">Voltar aos valores padrão</string>
+    <string name="advanced">Avançado</string>
+    <string name="keep_until_reboot">Manter até reiniciar</string>
+    <string name="force_perf">Forçar modo Performance no jogo</string>
+    <string name="force_perf_note">Necessário para a redução de resolução valer. Muda o modo de jogo dos itens marcados; ao desativar o perfil, eles voltam ao modo Padrão.</string>
+    <string name="close">Fechar</string>
+    <string name="got_it">Entendi</string>
+
+    <string name="help_title">Como funciona</string>
+    <string name="help_message">BOTÕES DA BARRA RÁPIDA\n\n• Gráficos: Equilibrado — reduz a resolução dos jogos para %1$d%%. Bom meio-termo entre qualidade e desempenho.\n\n• Gráficos: Desempenho — reduz para %2$d%%. Mais FPS, imagem mais borrada.\n\nPara mudar esses valores, use o menu ⋮ > Ajustar intensidade.\n\nSó um perfil fica ativo por vez. Tocar no botão ativo desliga o perfil. Pode ser preciso reabrir o jogo para a mudança valer.\n\nAo reiniciar o aparelho o perfil é desfeito. Com “Manter até reiniciar” (em Ajustar) ligado, o sistema também é impedido de sobrescrever os valores nesse período. “Restaurar” desfaz na hora e também limpa sobras (por exemplo, de jogos desinstalados).\n\nPara a redução valer, o app coloca os jogos no modo Performance do sistema e, ao desativar o perfil, devolve ao modo Padrão.\n\nItens desmarcados na lista nunca são alterados. Se o Shizuku ainda não estiver autorizado, o próprio botão pede a permissão.\n\nCOMO ADICIONAR\n%3$s</string>
+    <string name="help_add_13">Use o menu ⋮ > “Adicionar botões à barra rápida”.</string>
+    <string name="help_add_manual">Abra a barra rápida, toque no lápis (editar) e arraste os botões “Gráficos: …” para a área ativa.</string>
+
+    <string name="diag_items">Itens que o app altera:</string>
+    <string name="diag_none">(nenhum)</string>
+    <string name="diag_system">No sistema:</string>
+    <string name="diag_last_sync">Último comando de sync</string>
+    <string name="diag_not_run">(não executado)</string>
+    <string name="diag_modes">Modo de jogo no sistema (dumpsys, 5 primeiros):</string>
+    <string name="diag_no_data">(sem dados)</string>
+
+    <string name="err_shizuku_not_running">Shizuku não está rodando</string>
+    <string name="err_permission_denied_forever">Permissão negada. Autorize este app dentro do Shizuku</string>
+    <string name="err_permission_denied">Permissão do Shizuku negada</string>
+    <string name="err_shizuku_failure">Falha com o Shizuku: %s</string>
+    <string name="err_command">Erro (%1$d): %2$s</string>
+    <string name="err_failure">Falha: %s</string>
+    <string name="toast_no_games">Nenhum jogo selecionado</string>
+    <string name="toast_applied">Perfil aplicado em %d item(ns)</string>
+    <string name="toast_restored">Tudo restaurado</string>
+    <string name="toast_removed">Perfil removido</string>
+    <string name="toast_sync_on">Proteção até reiniciar ligada</string>
+    <string name="toast_sync_off">Proteção até reiniciar desligada</string>
+    <string name="sync_off_by_user">(desligado pelo usuário)</string>
+
+    <string name="menu_about">Sobre</string>
+    <string name="about_description">Reduz a resolução dos jogos pelo Game Mode do Android, usando o Shizuku.</string>
+    <string name="about_version">Versão %1$s (%2$d)</string>
+    <string name="about_author">Por %s</string>
+    <string name="about_license">Licença: %s</string>
+    <string name="about_source">Código-fonte e página do projeto:\n%s</string>
+    <string name="about_issues">Relatar problemas:\n%s</string>
+    <string name="about_credits">Créditos\nEste app usa o Shizuku, da RikkaApps:\nhttps://github.com/RikkaApps/Shizuku</string>
+    <string name="about_privacy">Privacidade\nEste app não usa a internet e não coleta nenhum dado. Tudo fica no seu aparelho.</string>
+    <string name="btn_copy_support">Copiar informações para suporte</string>
+    <string name="toast_copied">Informações copiadas</string>
+</resources>
